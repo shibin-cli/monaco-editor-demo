@@ -1,13 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Monaco-editor demo </title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .root {
+            display: flex;
+        }
+
+        h2 {
+            text-align: center;
+            line-height: 40px;
+            font-size: 16px;
+        }
+
+        .root>div {
+            flex: 1;
+        }
+    </style>
 </head>
+
 <body>
-    <div id="container" style="height: 500px;"></div>
+    <div class="root">
+        <div>
+            <h2>js 编辑</h2>
+            <div id="container" style="height: 500px;"></div>
+        </div>
+        <div style="margin-left: 10px;">
+            <h2>sql 编辑</h2>
+            <div id="sql-container" style="height: 500px;"></div>
+        </div>
+    </div>
 </body>
 <script src="./src/main.ts" type="module"></script>
+
 </html>
