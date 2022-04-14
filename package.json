@@ -1,0 +1,27 @@
+{
+  "name": "monaco-editor-demo",
+  "version": "1.0.0",
+  "description": "monaco-editor 使用 demo",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shibin-cli/monaco-editor-demo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shibin-cli/monaco-editor-demo/issues"
+  },
+  "homepage": "https://github.com/shibin-cli/monaco-editor-demo#readme",
+  "dependencies": {
+    "monaco-editor": "^0.33.0"
+  },
+  "devDependencies": {
+    "vite": "^2.9.4"
+  }
+}
